@@ -20,6 +20,7 @@
 -(void) print;
 -(void) setTo: (int) n over: (int) d;
 -(double) convertToNum;
--(void) add: (Fraction *) f;
+-(Fraction *) add: (Fraction *) f;
+-(void) reduce;
 
 @end

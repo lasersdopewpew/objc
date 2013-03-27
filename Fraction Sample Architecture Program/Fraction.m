@@ -31,11 +31,32 @@
     denominator = d;
 }
 
--(void) add: (Fraction *) f
+-(Fraction *) add: (Fraction *) f
 {
     //to add the two fractions expression is as follows:
     //a/b+ c/d = ((a*d) + (b*c)) / (b*d)
-    numerator = numerator * f.denominator + denominator * f.numerator;
-    denominator = denominator * f.denominator;
+    Fraction *result = [[Fraction alloc] init];
+
+    result.numerator = numerator * f.denominator + denominator * f.numerator;
+    result.denominator = denominator * f.denominator;
+    
+    [result reduce];
+    //gotta return the result
+    return result;
+}
+
+-(void) reduce
+{
+    int u = numerator;
+    int v = denominator;
+    int temp;
+    
+    while (v != 0) {
+        temp = u % v;
+        u = v;
+        v = temp;
+    }
+    numerator /= u;
+    denominator /= u;
 }
 @end
