@@ -1,0 +1,1 @@
+Ex 2 included also exercise 1 before moving the commands to reduce the fraction from the operators' methods to the print method.
