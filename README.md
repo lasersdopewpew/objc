@@ -10,9 +10,11 @@ single .m files are meant to be copied inside main.m in Xcode and be built. most
 
 folders include the main.m, classname.h, classname.m files. simply copy and paste them in your own Xcode project and then run the program. to a create class file simply go to File > New File and from the left pane select OS X > Cocoa > Objective-C class. like this:
 
-<img src="http://apas.gr/wp-content/uploads/2013/03/xcode.png" title="Xcode Class">
+<img src="/xcode.png" title="Xcode Class">
 
 you can also find sometimes comment blocks indicating an alternative way to solve a given exercise, an explanation of the thought process, etc.
+
+-- upd: exercises from chapters 1, 2 and 3 are not included since chapter 1 is an introductory chapter, most of the exercises in chapter 2 don't involve coding and those who do a) are fairly easy, b) probably didn't save the files while doing them (sorry!), and all exercises in chapter 3 but 7 are not about writing code.
 
 ####continuum
 
