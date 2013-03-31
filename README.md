@@ -14,7 +14,7 @@ folders include the main.m, classname.h, classname.m files. simply copy and past
 
 you can also find sometimes comment blocks indicating an alternative way to solve a given exercise, an explanation of the thought process, etc.
 
--- upd: exercises from chapters 1, 2 and 3 are not included since chapter 1 is an introductory chapter, most of the exercises in chapter 2 don't involve coding and those who do a) are fairly easy, b) probably didn't save the files while doing them (sorry!), and all exercises in chapter 3 but 7 are not about writing code.
+-- **upd**: exercises from chapters 1, 2 and 3 are not included since chapter 1 is an introductory chapter, most of the exercises in chapter 2 don't involve coding and those who do a) are fairly easy, b) probably didn't save the files while doing them (sorry!), and all exercises in chapter 3 but 7 are not about writing code.
 
 ####continuum
 
