@@ -1,4 +1,4 @@
-//fract!!!!!!!!!!!
+//fractions
 
 #import <Foundation/Foundation.h>
 

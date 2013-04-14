@@ -78,7 +78,7 @@ int main (int argc, char *argv[]) {
  rewrite the if-block as 'switch' -- but still no big a deal on being more elegant
 
  Way #3
- to make the if-block as a for so incremental ++i on the '== number' conditional
- and then abstract it with way #1 
+ to make the if-block as a while, do modulo on digits, and call the class method to 
+ write the digit as a word
  
  */

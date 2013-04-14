@@ -15,11 +15,6 @@
 @implementation NumberToWord
 -(void) appendWord: (int) number
 {
-    //implementing math conditional exps 'just because'
-    //instead of 'if == x', which'd be a lot more straightforward as in the
-    //original implementation, this is like a guessing game
-    //guessing game semi-worked, implementing 'if == x' until figuring it out
-    //ALL YOUR REGULAR EXPRESSIONS ARE BELONG TO US
     if (number == 0)
         NSLog (@"zero");
     else if (number == 1)
@@ -72,18 +67,3 @@ int main (int argc, char *argv[]) {
     [pool drain];
     return 0;
 }
-
-/* THINKING ABOUT MORE EFFICIENT WAYS TO DO THIS
- 
- Way #1
- can abstract the two instances of the if-block in a class and call it as an object
- so instead of n-lines there'll be only one (plus the class init = 2, doh)
- 
- Way #2
- rewrite the if-block as 'switch' -- but still no big a deal on being more elegant
- 
- Way #3
- to make the if-block as a for so incremental ++i on the '== number' conditional
- and then abstract it with way #1
- 
- */

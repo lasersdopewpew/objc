@@ -1,11 +1,9 @@
 //ex 6 p 89 - rewrite programs 5.2 to 5.5 replacing all for loops with whiles
-//will start adding programs beneath each program -- ie., in a program += program fashion, only vertically
 //to test, copy paste into main.m one program at a time run + build
 
 //program 5.2
 //calculate 200th triangular #
 
-/*
 #import <Foundation/Foundation.h>
 
 int main (int argc, char *argv[]) {
@@ -29,9 +27,7 @@ int main (int argc, char *argv[]) {
     [pool drain];
     return 0;
 }
- */
 
-/*
 //program 5.3
 //generate table of triangular
 
@@ -60,9 +56,8 @@ int main (int argc, char *argv[]) {
     [pool drain];
     return 0;    
 }
-*/
 
-/*
+
 //program 5.4
 //ask user what triangularnumber wants to compute
 
@@ -91,7 +86,6 @@ int main (int argc, char *argv[]) {
     [pool drain];
     return 0;
 }
-*/
 
 //program 5.5
 //compute n-times aka show n-times prompt to compute triangular number aka nested fors, aka nested whiles

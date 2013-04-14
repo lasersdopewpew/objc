@@ -4,15 +4,10 @@
  
  (3.31 * 10^(-18) + 2.01 * 10^(-7) / (7.16 * 10^(-6) + 2.01 * 10^(-8)
  
- print result in exponential form
- first try will be to solve normally and then convert results var type to exp type
- SO SMART YO 
- 
- apparently didn't work
- so good process is:
+ process is:
  declare what variable type it'll be
- ekxorise to expression se ena variable, converting manually tis dinameis se obj-c udnerstandable form
- print me %Le gia na einai se exponential double long form (sketo %e doesn't work)
+ store the expression in a variable, converting manually its powers in obj-c form
+ print with %Le in order to be in exponential double long form (plain %e doesn't work)
  
 */
 

@@ -4,9 +4,6 @@ define a class called XYPoint which holds Cartesian coords (x, y) (int)
 define methods to individually set x and y coords of a point and retrieve their values
 write the obj-c program
 
-if this fails w/o headers or proper file > new > obj-c class creation, then copy-paste
-to main.m and test
-
 hide yo kids, hide yo wives
 
 */
